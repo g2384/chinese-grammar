@@ -6,18 +6,30 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta charset="UTF-8">
   <link rel="stylesheet" href="https://unpkg.com/docsify-themeable/dist/css/theme-simple.css">
+  <style>
+    .sidebar-nav p {
+      font-weight: bold;
+      margin: 0px;
+    }
+
+    .markdown-section a {
+      color: #0b91e3;
+      text-decoration: none;
+    }
+  </style>
 </head>
 
 <body>
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: 'Chinese Grammar',
+      name: 'Practical Chinese Usage',
+      homepage: 'index.md',
       loadSidebar: true,
       auto2top: true,
       subMaxLevel: 3,
-      name: '',
       repo: '',
+      formatUpdated: '{YYYY}-{MM}-{DD}',
 
       search: 'auto', // default
 
@@ -64,7 +76,18 @@
         // You can provide a regexp to match prefixes. In this case,
         // the matching substring will be used to identify the index
         pathNamespaces: /^(\/(zh-cn|ru-ru))?(\/(v1|v2))?/
-      }
+      },
+
+      plugins: [
+        function (hook) {
+          var footer = 
+            '<footer><hr><p class="warn">Found an issue? Report <a href="https://github.com/g2384/practical-chinese-usage/issues/new/choose" target="_blank" rel="noopener">here</a>.</p><hr><p>Composed by <a href="https://github.com/g2384" target="_blank" rel="noopener">g2384</a>. Last modified on {docsify-updated}.</p></footer>';
+
+          hook.afterEach(function (html) {
+            return html + footer;
+          });
+        }
+      ]
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
