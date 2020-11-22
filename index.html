@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="https://unpkg.com/docsify-themeable/dist/css/theme-simple.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable/dist/css/theme-simple.css">
   <style>
     .sidebar-nav p {
       font-weight: bold;
@@ -29,7 +29,6 @@
       auto2top: true,
       subMaxLevel: 3,
       repo: '',
-      formatUpdated: '{YYYY}-{MM}-{DD}',
 
       search: 'auto', // default
 
@@ -80,8 +79,9 @@
 
       plugins: [
         function (hook) {
-          var footer = 
-            '<footer><hr><p class="warn">Found an issue? Report <a href="https://github.com/g2384/practical-chinese-usage/issues/new/choose" target="_blank" rel="noopener">here</a>.</p><hr><p>Composed by <a href="https://github.com/g2384" target="_blank" rel="noopener">g2384</a>. Last modified on {docsify-updated}.</p></footer>';
+          var updated = new Date(document.lastModified).toLocaleString('zh-cn', { year: 'numeric', month: '2-digit', day: '2-digit' }).replace(/\//g, '-');
+          var footer =
+            '<footer><hr><p class="warn">Found an issue? Report <a href="https://github.com/g2384/practical-chinese-usage/issues/new/choose" target="_blank" rel="noopener">here</a>.</p><hr><p>Composed by <a href="https://github.com/g2384" target="_blank" rel="noopener">g2384</a>. Last modified on ' + updated + '.</p></footer>';
 
           hook.afterEach(function (html) {
             return html + footer;
@@ -92,7 +92,7 @@
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
-  <script src="https://unpkg.com/docsify-themeable"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-themeable/dist/js/docsify-themeable.min.js"></script>
 </body>
 
 </html>
