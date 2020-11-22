@@ -7,6 +7,7 @@
 连接词（Conjunctions）
 
 * [不仅……也/还/而且……](/bujin_erqie)
+* [即使……也……](/jishi)
 
 副词（Adverbds）
 
