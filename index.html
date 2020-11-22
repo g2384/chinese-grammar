@@ -9,12 +9,33 @@
   <style>
     .sidebar-nav p {
       font-weight: bold;
-      margin: 0px;
+      margin: var(--search-input-margin);
+      color: var(--mono-shade2);
+      font-size: 0.9em;
+      background-color: white;
+      padding: var(--sidebar-padding);
+      padding-top: 5px;
+      padding-bottom: 5px;
     }
 
     .markdown-section a {
       color: #0b91e3;
       text-decoration: none;
+    }
+
+    p.box {
+      border: #e3e3e3 solid 1px;
+      padding: 10px;
+      font-size: 1.2em;
+      text-align: center;
+    }
+
+    del {
+      color: var(--mono-shade1);
+    }
+
+    :root {
+      --base-color: var(--mono-shade3);
     }
   </style>
 </head>
@@ -75,6 +96,18 @@
         // You can provide a regexp to match prefixes. In this case,
         // the matching substring will be used to identify the index
         pathNamespaces: /^(\/(zh-cn|ru-ru))?(\/(v1|v2))?/
+      },
+
+      markdown: {
+        smartypants: true,
+        renderer: {
+          text: function (t) {
+            if (t.trim().indexOf("||") == 0) {
+              return "<p class='box'>" + t.trim().substr("2") + "</p>";
+            }
+            return t;
+          }
+        }
       },
 
       plugins: [

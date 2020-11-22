@@ -7,3 +7,7 @@
 连接词（Conjunctions）
 
 * [不仅……也/还/而且……](/bujin_erqie)
+
+副词（Adverbds）
+
+* [从来](/conglai)
