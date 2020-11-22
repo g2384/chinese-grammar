@@ -11,3 +11,4 @@
 副词（Adverbds）
 
 * [从来](/conglai)
+* [刚、刚才、刚刚](/gang)

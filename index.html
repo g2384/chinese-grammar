@@ -37,6 +37,10 @@
     :root {
       --base-color: var(--mono-shade3);
     }
+
+    .markdown-section blockquote em {
+      font-style: italic;
+    }
   </style>
 </head>
 
@@ -102,8 +106,9 @@
         smartypants: true,
         renderer: {
           text: function (t) {
-            if (t.trim().indexOf("||") == 0) {
-              return "<p class='box'>" + t.trim().substr("2") + "</p>";
+            let trimmed = t.trim();
+            if (trimmed.indexOf("||") == 0) {
+              return "<p class='box'>" + trimmed.substr("2").replace(/\|\|/g, "<br>") + "</p>";
             }
             return t;
           }
