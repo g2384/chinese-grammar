@@ -15,3 +15,4 @@
 * [从来](/conglai)
 * [刚、刚才、刚刚](/gang)
 * [正好](/zhenghao)
+* [差不多](/chabuduo)
