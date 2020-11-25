@@ -36,12 +36,37 @@ Your job and my job are almost the same.
 
 It is also an adverb and means 'approximately', 'about'.
 
-|| Subject + 差不多 + Adj./Verb
+|| two or more subjects + 差不多 + adj
+
+Compare:
+
+- 差不多 + adj = 几乎一样 + adj
+
+(See: [几乎](/jihu))
+
+If the adjective is monosyllabic (e.g. 大、小、高、矮), it is natrual to say 差不多大、差不多小、差不多高、差不多矮。
+
+If the adjective consists of more than one character (e.g. 好吃、容易), it is more natural to say 差不多一样好吃、差不多一样容易。
 
 > 这两个孩子**差不多**大。  
+= 这两个孩子**几乎一样**大。  
 These two children are more or less the same age.
 
+> 今天的菜都**差不多**一样好吃。  
+= 今天的菜都**几乎**一样好吃。  
+Today's dishes are almost as good.
+
+|| subject + 差不多 + verb
+
+Compare:
+
+- 差不多 + verb = 几乎 + verb = 快 + verb
+
+(See: [几乎](/jihu))
+
 > 我**差不多**到公园门口了。  
+= 我**几乎**到公园门口了。  
+= 我**快**到公园门口了。  
 I'm almost at the entrance of the park.
 
 > 电影**差不多**要开始了。  

@@ -40,17 +40,28 @@ Almost no one believes him.
 
 || subject + 几乎 + predicate(verb phrase)
 
-= 差不多，almost.
+= 差不多 [(See 差不多)](/chabuduo)，almost.
 
 Common collocations:
 
-- 几乎 + adj
+- 几乎 + verb
 - 几乎全 + adj
 - 几乎都 + adj
+- 几乎一样 + adj
+- 几乎快要 + adj/verb
 - 几乎全是 + noun
 - 几乎都是 + noun
 - 几乎没 + verb (haven't done something yet)
 - 几乎不 + verb (don't do something)
+
+> 我**几乎**饱了。
+= 我**差不多**饱了。
+I'm almost full. (饱 = become full)
+
+> 他们俩**几乎一样**高。  
+= 他们俩**差不多**高。  
+= 他们俩**差不多一样**高。  
+They are about the same height
 
 > 外面**几乎**全黑了。  
 = 外面**差不多**全黑了。  

@@ -31,7 +31,7 @@
     }
 
     p.box {
-      border: #e3e3e3 solid 1px;
+      border: var(--mono-shade2) solid 1px;
       padding: 10px;
       font-size: 1.2em;
       text-align: center;
@@ -119,6 +119,10 @@
             }
             t = t.replace(/\{:\.([\w+\-]+)\}([^\n\r]+)/g, "<div class='$1'>$2</div>");
             return t;
+          },
+          blockquote: function (b) {
+            b = b.replace(/  \n/g, "<br>");
+            return "<blockquote>" + b + "</blockquote>";
           }
         }
       },
