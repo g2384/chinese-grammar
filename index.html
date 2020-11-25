@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta charset="UTF-8">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable/dist/css/theme-simple.css">
-  <link rel="shortcut icon" href="/favicon.ico"/>
+  <link rel="shortcut icon" href="/favicon.ico" />
   <style>
     .sidebar-nav p {
       font-weight: bold;
@@ -17,6 +17,12 @@
       padding: var(--sidebar-padding);
       padding-top: 5px;
       padding-bottom: 5px;
+    }
+
+    .sidebar-nav .sub-cat {
+      font-size: 0.9em;
+      color: var(--mono-shade2);
+      font-weight: bold;
     }
 
     .markdown-section a {
@@ -111,6 +117,7 @@
             if (trimmed.indexOf("||") == 0) {
               return "<p class='box'>" + trimmed.substr("2").replace(/\|\|/g, "<br>") + "</p>";
             }
+            t = t.replace(/\{:\.([\w+\-]+)\}([^\n\r]+)/g, "<div class='$1'>$2</div>");
             return t;
           }
         }

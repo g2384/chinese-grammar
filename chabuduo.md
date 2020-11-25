@@ -52,7 +52,7 @@ The movie is almost about to start.
 > 他**差不多**五岁了吧？(了 means already, completion)  
 He should be about 5 years old, right?
 
-> 这些水果差不多20块。  
+> 这些水果**差不多**20块。  
 These fruits are about 20 yuan.
 
 || 差不多 ＋ time
