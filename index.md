@@ -17,3 +17,4 @@
 * [……上](/shang?id=indicate-scope)
 * [正好](/zhenghao)
 * [差不多](/chabuduo)
+* [尽管……](/jinguan)

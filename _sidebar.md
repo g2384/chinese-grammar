@@ -9,6 +9,7 @@
 
 * [不仅……也/还/而且……](/bujin_erqie)
 * [即使……也……](/jishi)
+* [尽管……](/jinguan)
 
 副词（Adverbs）
 
