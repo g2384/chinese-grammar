@@ -16,6 +16,7 @@
 * [从来](/conglai)
 * [刚、刚才、刚刚](/gang)
 * [正好](/zhenghao)
+* [却……](/que)
 * {:.sub-cat}几乎（Approximations）
 * * [几乎](/jihu)
 * * [差不多](/chabuduo)

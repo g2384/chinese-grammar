@@ -15,7 +15,7 @@
 
 但是、可是、还是 are used to emphasise the shift in meaning in the second clause. At least one must be kept in the second clause.
 
-却 shows disappointment, criticism, disgreement or unexpectedness.
+却 shows disappointment, criticism, disgreement or unexpectedness. (See [却](/que))
 
 > **尽管**很多人批评他，他**还是**坚持这么做。  
 = **尽管**很多人批评他，**可是**他**还是**坚持这么做。  

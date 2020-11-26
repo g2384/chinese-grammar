@@ -18,3 +18,4 @@
 * [正好](/zhenghao)
 * [差不多](/chabuduo)
 * [尽管……](/jinguan)
+* [却……](/que)
