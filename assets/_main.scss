@@ -49,11 +49,12 @@ aside nav ul {
   list-style: none;
 
   li {
-    margin: 0.5em 0;
+    margin: 0;
     position: relative;
   }
 
   a {
+    padding: 0.3em 0;
     display: block;
   }
 
@@ -124,6 +125,14 @@ ul.pagination {
 
   input.toggle:checked + label + ul {
     display: block;
+  }
+
+  input.toggle + label span:after {
+    content: "▾";
+  }
+
+  input.toggle:checked + label span:after {
+    content: "";
   }
 
   label {

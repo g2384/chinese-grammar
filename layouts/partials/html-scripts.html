@@ -5,3 +5,14 @@
 <script src="{{ $fastsearchJS.RelPermalink }}"></script>
 
 {{ end -}}
+
+<script>
+    function activeHome() {
+        let url = window.location.pathname;
+        if(url == null || url.length == 0 || url == "/"){
+            let a = document.querySelectorAll(".book-menu nav a");
+            a.forEach(e => {if(e.innerHTML == "Home"){e.classList.add('active');}});
+        }
+    }
+    activeHome();
+</script>

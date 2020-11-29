@@ -29,7 +29,7 @@ p.box {
   padding: 10px;
   font-size: 1.2em;
   text-align: center;
-  box-shadow: 0 0px 4px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 0px 4px 0 rgba(0, 0, 0, 0.2);
   margin-top: 3rem;
 }
 
@@ -37,8 +37,16 @@ del {
   color: var(--mono-shade1);
 }
 
-.book-menu label a {
-  color: var(--mono-shade2);
+.book-menu {
+  label a {
+    color: var(--mono-shade2);
+  }
+
+  ul li span.no-link {
+    color: var(--mono-shade2);
+    padding: 0.3em 0;
+    display: block;
+  }
 }
 
 h2 {
@@ -61,6 +69,7 @@ nav h2 {
 
 aside li label {
   font-weight: bold;
+  align-items: center;
 }
 
 aside li span {
