@@ -92,7 +92,6 @@ disablePathToLower = true
   # (Optional, experimental, default false) Enables service worker that caches visited pages and resources for offline use.
   BookServiceWorker = true
 
-
 [markup]
   defaultMarkdownHandler = "goldmark"
   [markup.goldmark]
@@ -110,5 +109,5 @@ disablePathToLower = true
       autoHeadingIDType = "github"
     [markup.goldmark.renderer]
       hardWraps = false
-      unsafe = false
+      unsafe = true
       xhtml = false

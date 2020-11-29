@@ -21,12 +21,14 @@
 
     a.anchor {
       opacity: 0;
-      font-size: 0.75em;
-      vertical-align: middle;
       text-decoration: none;
     }
 
-    &:hover a.anchor,
+    &:hover a.anchor{
+      opacity: 0.5;
+    }
+    
+    &:hover a.anchor:hover,
     a.anchor:focus {
       opacity: initial;
     }
