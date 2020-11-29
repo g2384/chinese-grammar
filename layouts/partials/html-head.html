@@ -15,14 +15,12 @@
 <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" title="{{ partial "title" . }}">
 {{ end -}}
 
-<!-- Theme stylesheet, you can customize scss by creating `assets/custom.scss` in your website -->
-{{ $styles := resources.Get "book.scss" | resources.ExecuteAsTemplate "book.scss" . | resources.ToCSS | postCSS (dict "config" "./assets/postcss.config.js") }}
-{{ if .Site.IsServer }}
-    <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
-{{ else }}
-    {{ $styles := resources.Get "book.scss" | resources.ExecuteAsTemplate "book.scss" . | resources.ToCSS | resources.Minify | resources.Fingerprint }}
-    <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}">
+{{ $styles := resources.Get "book.scss" }}
+{{ $styles = $styles | resources.ExecuteAsTemplate "book.scss" . | resources.ToCSS | postCSS (dict "config" "./assets/postcss.config.js") }}
+{{ if hugo.IsProduction }}
+{{ $styles = $styles | minify | resources.PostProcess }}
 {{ end }}
+<link href="{{ $styles.RelPermalink }}" rel="stylesheet" />
 
 {{- if .Site.Params.BookServiceWorker }}
 {{- $swJS := resources.Get "sw-register.js" | resources.ExecuteAsTemplate "sw.js" . | resources.Minify | resources.Fingerprint }}
