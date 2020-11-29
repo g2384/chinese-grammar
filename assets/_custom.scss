@@ -1,0 +1,67 @@
+/* You can add custom styles here. */
+
+// @import "plugins/numbered";
+
+.sidebar-nav p {
+  font-weight: bold;
+  margin: var(--search-input-margin);
+  color: var(--mono-shade2);
+  font-size: 0.9em;
+  background-color: white;
+  padding: var(--sidebar-padding);
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.sidebar-nav .sub-cat {
+  font-size: 0.9em;
+  color: var(--mono-shade2);
+  font-weight: bold;
+}
+
+.markdown-section a {
+  color: #0b91e3;
+  text-decoration: none;
+}
+
+p.box {
+  border: var(--gray-200) solid 1px;
+  padding: 10px;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+del {
+  color: var(--mono-shade1);
+}
+
+:root {
+  --base-color: var(--mono-shade3);
+}
+
+.markdown-section blockquote em {
+  font-style: italic;
+}
+
+aside li label {
+  font-weight: bold;
+}
+
+aside li span {
+  font-weight: bold;
+}
+
+nav {
+  border-right: var(--gray-200) solid 1px;
+}
+
+.book-page {
+  padding-left: 3rem;
+}
+
+#book-search-results a:hover,
+a:focus {
+  outline: 0;
+  background-color: #eee;
+  color: #333;
+}

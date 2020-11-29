@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}" dir={{ .Site.Language.LanguageDirection }}>
+
+<head>
+  {{ hugo.Generator }}
+  {{ partial "html-head" . }}
+  {{ partial "inject/head" . }}
+</head>
+
+<body dir={{ .Site.Language.LanguageDirection }}>
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      {{ template "menu" . }}
+      <!-- Left menu Content -->
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        {{ template "header" . }}
+        <!-- Mobile layout header -->
+      </header>
+
+      {{ partial "inject/content-before" . }}
+      {{ template "main" . }}
+      <!-- Page Content -->
+      {{ partial "inject/content-after" . }}
+
+      <footer class="book-footer">
+        {{ template "footer" . }}
+        <!-- Footer under page content -->
+        {{ partial "inject/footer" . }}
+      </footer>
+
+      {{ template "comments" . }}
+      <!-- Comments block -->
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    {{ if default true (default .Site.Params.BookToC .Params.BookToC) }}
+    <aside class="book-toc">
+      {{ template "toc" . }}
+      <!-- Table of Contents -->
+    </aside>
+    {{ end }}
+  </main>
+
+  {{ partial "inject/body" . }}
+
+</body>
+
+</html>
+
+{{ define "menu" }}
+{{ partial "menu" . }}
+{{ end }}
+
+{{ define "header" }}
+{{ partial "header" . }}
+
+{{ if default true (default .Site.Params.BookToC .Params.BookToC) }}
+<aside class="hidden clearfix">
+  {{ template "toc" . }}
+</aside>
+{{ end }}
+{{ end }}
+
+{{ define "footer" }}
+{{ partial "footer" . }}
+{{ end }}
+
+{{ define "comments" }}
+{{ if and .Content (default true (default .Site.Params.BookComments .Params.BookComments)) }}
+<div class="book-comments">
+  {{- partial "comments" . -}}
+</div>
+{{ end }}
+{{ end }}
+
+{{ define "main" }}
+<article class="markdown">
+  {{- .Content -}}
+  <hr>
+  <blockquote class="book-hint info">Found an issue? Report <a href="https://github.com/g2384/practical-chinese-usage/issues/new/choose" target="_blank" rel="noopener">here</a>.
+  </blockquote>
+  <hr>
+</article>
+{{ end }}
+
+{{ define "toc" }}
+{{ partial "toc" . }}
+{{ end }}
+
+{{ partial "html-scripts" }}
