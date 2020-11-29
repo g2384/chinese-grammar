@@ -7,6 +7,12 @@
 - id: Last modified by
   translation: Last modified by
 
+- id: Last modified on
+  translation: Last modified on
+
+- id: Composed by
+  translation: Composed by
+
 - id: Expand
   translation: Expand
 

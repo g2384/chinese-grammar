@@ -1,3 +1,109 @@
-/* You can override SASS variables here. */
+// Used in layout
+$padding-1: 1px !default;
+$padding-4: 0.25rem !default;
+$padding-8: 0.5rem !default;
+$padding-16: 1rem !default;
+$padding-32: 1rem !default;
 
-// @import "plugins/dark";
+$font-size-base: 16px !default;
+$font-size-12: 0.75rem !default;
+$font-size-14: 0.875rem !default;
+$font-size-16: 1rem !default;
+
+$border-radius: $padding-4 !default;
+
+$body-font-weight: normal !default;
+
+$body-min-width: 20rem !default;
+$container-max-width: 80rem !default;
+
+$header-height: 3.5rem !default;
+$menu-width: 16rem !default;
+$toc-width: 16rem !default;
+
+$mobile-breakpoint: $menu-width + $body-min-width * 1.2 + $toc-width !default;
+
+$font-family-base: system-ui, -apple-system, "Segoe UI", Roboto,
+  "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$font-family-code: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+  "Courier New", monospace !default;
+
+$hint-colors: (
+  info: #6bf,
+  warning: #fd6,
+  danger: #f66,
+) !default;
+
+// Themes
+@mixin theme-light {
+  --mono-hue: 113;
+  --mono-saturation: 0%;
+
+  /* Monochrome shades (darker) and tints (lighter) */
+  --mono-shade3: hsl(
+    var(--mono-hue),
+    var(--mono-saturation),
+    20%
+  ); /* #333333 */
+  --mono-shade2: hsl(
+    var(--mono-hue),
+    var(--mono-saturation),
+    30%
+  ); /* #4d4d4d */
+  --mono-shade1: hsl(
+    var(--mono-hue),
+    var(--mono-saturation),
+    40%
+  ); /* #666666 */
+  --mono-base: hsl(var(--mono-hue), var(--mono-saturation), 50%); /* #808080 */
+  --mono-tint1: hsl(var(--mono-hue), var(--mono-saturation), 70%); /* #b3b3b3 */
+  --mono-tint2: hsl(var(--mono-hue), var(--mono-saturation), 89%); /* #e3e3e3 */
+  --mono-tint3: hsl(var(--mono-hue), var(--mono-saturation), 97%); /* #f7f7f7 */
+
+  --gray-100: #f8f9fa;
+  --gray-200: #e9ecef;
+  --gray-500: #adb5bd;
+
+  --color-link: #0055bb;
+  --color-visited-link: #8440f1;
+
+  --body-background: white;
+  --body-font-color: black;
+
+  --icon-filter: none;
+
+  --hint-color-info: #6bf;
+  --hint-color-warning: #fd6;
+  --hint-color-danger: #f66;
+}
+
+@mixin theme-dark {
+  --mono-hue: 201;
+  --mono-saturation: 18%;
+
+  // Monochrome shades (darker) and tints (lighter)
+  --mono-shade3: hsl(var(--mono-hue), var(--mono-saturation), 13%);
+  --mono-shade2: hsl(var(--mono-hue), var(--mono-saturation), 15%);
+  --mono-shade1: hsl(var(--mono-hue), var(--mono-saturation), 17%);
+  --mono-base: hsl(var(--mono-hue), var(--mono-saturation), 19%);
+  --mono-tint1: hsl(var(--mono-hue), var(--mono-saturation), 25%);
+  --mono-tint2: hsl(var(--mono-hue), var(--mono-saturation), 35%);
+  --mono-tint3: hsl(var(--mono-hue), var(--mono-saturation), 43%);
+
+  --gray-100: rgba(255, 255, 255, 0.1);
+  --gray-200: rgba(255, 255, 255, 0.2);
+  --gray-500: rgba(255, 255, 255, 0.5);
+
+  --color-link: #84b2ff;
+  --color-visited-link: #b88dff;
+
+  --body-background: #343a40;
+  --body-font-color: #e9ecef;
+
+  --icon-filter: brightness(0) invert(1);
+
+  --hint-color-info: #6bf;
+  --hint-color-warning: #fd6;
+  --hint-color-danger: #f66;
+}
