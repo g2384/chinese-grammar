@@ -1,0 +1,7 @@
+{{- if default true .Site.Params.BookSearch }}
+
+<script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js"></script>
+{{- $fastsearchJS := resources.Get "fastsearch.js" | resources.Minify -}}
+<script src="{{ $fastsearchJS.RelPermalink }}"></script>
+
+{{ end -}}
