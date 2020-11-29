@@ -4,6 +4,10 @@ type: docs
 weight: 1
 ---
 
+<style type="text/css" rel="stylesheet">
+.markdown ul{list-style:none;padding:0rem;}
+</style>
+
 # Practical Chinese Usage
 
 [才、就](/adverb/cai_jiu)

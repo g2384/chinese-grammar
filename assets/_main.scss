@@ -5,6 +5,7 @@ html {
 }
 
 body {
+  margin: 0 auto;
   min-width: $body-min-width;
   color: var(--body-font-color);
   background: var(--body-background);
