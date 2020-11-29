@@ -34,13 +34,13 @@
       <a {{ if .Page.Content }}href="{{ .Page.Permalink }}"{{ end }} class="{{ if $current }}active{{ end }}">
         {{- partial "title" .Page -}}
       </a>
-      <span>▾</span>
+      <span></span>
     </label>
   {{ else if .Page.Content }}
     <a href="{{ .Page.Permalink }}" class="{{ if $current }} active{{ end }}">
       {{- partial "title" .Page -}}
     </a>
   {{ else }}
-    <span>{{- partial "title" .Page -}}</span>
+    <span class="no-link">{{- partial "title" .Page -}}</span>
   {{ end }}
 {{ end }}
