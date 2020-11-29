@@ -5,7 +5,7 @@ weight: 1
 ---
 
 <style type="text/css" rel="stylesheet">
-.markdown ul{list-style:none;padding:0rem;}
+.markdown ul{list-style:none;padding:0rem;columns: 200px;}.markdown ul li::marker{content:"";}.markdown ul li{padding-left: 0rem;}
 </style>
 
 # Practical Chinese Usage

@@ -11,8 +11,7 @@ There are some idiomatic phrases using 在 to talk about a topic.
 # In Regards To
 
 {{<box "在 + topic + 上，somebody/something ……"
-"somebody/something + 在 + topic + 上，……"
->}}
+"somebody/something + 在 + topic + 上，……" >}}
 
 = on the topic of, in regards to
 
@@ -28,9 +27,9 @@ There are many differences between northern and southern people when it comes to
 
 ---
 
-When the sentence contains 是, but not "是……的" structure, 在 should be omitted.
+{{<box "是 + topic + 上 + adj." >}}
 
-|| 是 + topic + 上 + adj.
+When the sentence contains 是, but not "是……的" structure, 在 should be omitted.
 
 > 谁**是**美国历史**上**最重要的总统？  
 = **在**美国历史**上**，谁**是**最重要的总统？  
@@ -41,8 +40,8 @@ In regards to American history, who is the most important president?
 
 # On The Topic Of
 
-|| 在 + topic + 方面，somebody/something ……
-|| somebody/something + 在 + topic + 方面，……
+{{<box "在 + topic + 方面，somebody/something ……"
+"somebody/something + 在 + topic + 方面，……" >}}
 
 This is similar to the 在……上, which means "in relation to", "on the topic of", or "when it comes to".
 
@@ -65,8 +64,8 @@ When it comes to history, he's an expert.
 
 # Under A Condition
 
-|| 在 + topic + 下，somebody/something ……
-|| somebody/something + 在 + topic + 下，……
+{{<box "在 + topic + 下，somebody/something ……"
+"somebody/something + 在 + topic + 下，……" >}}
 
 = in an environment, under a circumstance.
 

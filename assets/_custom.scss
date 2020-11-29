@@ -25,10 +25,12 @@
 }
 
 p.box {
-  border: var(--gray-200) solid 1px;
+  border: #ccc solid 1px;
   padding: 10px;
   font-size: 1.2em;
   text-align: center;
+  box-shadow: 0 0px 4px 0 rgba(0,0,0,0.2);
+  margin-top: 3rem;
 }
 
 del {

@@ -24,14 +24,18 @@
       text-decoration: none;
     }
 
-    &:hover a.anchor{
+    &:hover a.anchor {
       opacity: 0.5;
     }
-    
+
     &:hover a.anchor:hover,
     a.anchor:focus {
       opacity: initial;
     }
+  }
+
+  h1 {
+    margin-bottom: $padding-32;
   }
 
   h4,
@@ -51,7 +55,8 @@
   b,
   optgroup,
   strong {
-    font-weight: bolder;
+    font-weight: normal;
+    color: #009688;
   }
 
   a {
@@ -96,6 +101,8 @@
 
     background-color: var(--mono-tint3);
 
+    box-shadow: 0 0px 4px 0 rgba(0, 0, 0, 0.2);
+
     :first-child {
       margin-top: 0;
     }
@@ -132,6 +139,17 @@
   ul,
   ol {
     padding-inline-start: $padding-16 * 2;
+  }
+
+  ul {
+    list-style: none;
+    li {
+      padding-left: 1rem;
+    }
+
+    li::marker {
+      content: "-";
+    }
   }
 
   dl {

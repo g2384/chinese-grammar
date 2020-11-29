@@ -8,12 +8,12 @@ bookToc: false
 
 ## Just Happen To Be
 
-|| 正好 + verb phrase
+{{<box "正好 + verb phrase" >}}
 
 = just happen to be. To express a coincidence related to time, size, volume, quantity, degree, etc.
 
 > 我**正好**要出去，垃圾我来扔吧。  
-= 我**刚打算**出去，垃圾我来扔吧。[(see 刚、刚才、刚刚)]({{<ref "gang" >}})  
+= 我**刚打**要出去，垃圾我来扔吧。[(see 刚、刚才、刚刚)](./gang)  
 I'm just about to leave. I'll take out the trash.
 
 > 你来了！我**正好**要找你。  

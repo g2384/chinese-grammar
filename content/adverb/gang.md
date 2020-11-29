@@ -15,12 +15,12 @@ The three words has similarities and differences.
 
 ## Just Now
 
-|| Subject + 刚 + Verb + 了
-|| Subject + 刚才 + Verb + 了
-|| Subject + 刚刚 + Verb + 了
-|| 刚才 + Subject + Verb + 了
-|| 刚刚 + Subject + Verb + 了
-|| 刚 + Subject + Verb + 了
+{{<box "Subject + 刚 + Verb + 了"
+"Subject + 刚才 + Verb + 了"
+"Subject + 刚刚 + Verb + 了"
+"刚才 + Subject + Verb + 了"
+"刚刚 + Subject + Verb + 了"
+"刚 + Subject + Verb + 了" >}}
 
 > 他**刚才**哭了。(He was crying a moment ago but he has stopped.)  
 = 他**刚刚**哭了。  
@@ -58,8 +58,8 @@ I didn't say anything just now.
 
 ---
 
-|| 刚才的 + verb
-|| 刚刚的 + verb
+{{<box "刚才的 + verb"
+"刚刚的 + verb" >}}
 
 刚 can't be used this way.
 
@@ -79,8 +79,8 @@ I heard it a moment ago. what happened?
 
 ## Just Started Doing
 
-|| 刚 + verb (without 了)
-|| 刚刚 + verb (without 了)
+{{<box "刚 + verb (without 了)"
+"刚刚 + verb (without 了)" >}}
 
 刚才...了 is rarely used here because 了 means the action has completed
 
@@ -106,16 +106,16 @@ I just started reading book.
 
 ## With Time
 
-|| Subject + 刚 + Verb (+ Obj.) + Duration
-|| Subject + 刚刚 + Verb (+ Obj.) + Duration
+{{<box "Subject + 刚 + Verb (+ Obj.) + Duration"
+"Subject + 刚刚 + Verb (+ Obj.) + Duration" >}}
 
 = Just did something ... ago.
 
 This can also be expressed as:
 
-> Subject + 才 + Verb (+ Obj.) + Duration  
-Subject + 只 + Verb (+ Obj.) + Duration  
-Subject + 仅仅 + Verb (+ Obj.) + Duration
+- Subject + 才 + Verb (+ Obj.) + Duration<!--TODO add link-->
+- Subject + 只 + Verb (+ Obj.) + Duration<!--TODO add link-->
+- Subject + 仅仅 + Verb (+ Obj.) + Duration<!--TODO add link-->
 
 **Examples:**
 
@@ -137,8 +137,8 @@ I just bought the car two days ago. Be careful when you drive.
 
 ## When I first time did something
 
-|| 刚 + verb + 的时候
-|| 刚刚 + verb + 的时候
+{{<box "刚 + verb + 的时候"
+"刚刚 + verb + 的时候" >}}
 
 > 我**刚**到上海**的时候**，谁都不认识。  
 = 我**刚刚**到上海**的时候**，谁都不认识。  
