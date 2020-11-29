@@ -10,9 +10,9 @@ bookToc: false
 
 ## Almost All
 
-|| 几乎 + noun phrase + 都……
+{{<box "几乎 + noun phrase + 都……" >}}
 
-= 差不多 [(See 差不多)](/chabuduo)，almost.
+= 差不多 [(See 差不多)](./chabuduo)，almost.
 
 Common collocations:
 
@@ -36,7 +36,7 @@ Almost all audiences in the world like this movie.
 
 Negative form:
 
-|| 几乎 + 没有 + Noun Phrase…… 
+{{<box "几乎 + 没有 + Noun Phrase……" >}}
 
 > 几乎**没有**人相信他。  
 = 差不多**没有**人相信他。  
@@ -44,9 +44,9 @@ Almost no one believes him.
 
 # Is Almost
 
-|| subject + 几乎 + predicate(verb phrase)
+{{<box "subject + 几乎 + predicate(verb phrase)" >}}
 
-= 差不多 [(See 差不多)](/chabuduo)，almost.
+= 差不多 [(See 差不多)](./chabuduo)，almost.
 
 Common collocations:
 

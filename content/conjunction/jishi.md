@@ -8,7 +8,7 @@ bookToc: false
 
 ## Even If
 
-|| 即使……，也……
+{{<box "即使……，也……" >}}
 
 = even if...still....
 
@@ -32,7 +32,10 @@ Even if you were very rich, you can't buy happiness.
 = 你**即使**对这门课不太感兴趣，**也**要学。  
 Even if you are not so interested in this subject, you still need to study it.
 
-If the clause after 即使 is not hypothetical, , 虽然 should be used.
+---
 
-> 现在虽然很忙，我们也抽时间陪孩子。Although it's busy now, we still take time to accompany the children.  
-NOT: ~~现在即使很忙，我们也抽时间陪孩子。~~
+If the clause after 即使 is not hypothetical, 虽然 should be used.
+
+> 现在**虽然**很忙，我们也抽时间陪孩子。  
+Although it's busy now, we still take time to accompany the children.  
+NOT: ~~现在**即使**很忙，我们也抽时间陪孩子。~~

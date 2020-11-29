@@ -3,7 +3,7 @@ $padding-1: 1px !default;
 $padding-4: 0.25rem !default;
 $padding-8: 0.5rem !default;
 $padding-16: 1rem !default;
-$padding-32: 1rem !default;
+$padding-32: 2rem !default;
 
 $font-size-base: 16px !default;
 $font-size-12: 0.75rem !default;
@@ -65,8 +65,8 @@ $hint-colors: (
   --gray-200: #e9ecef;
   --gray-500: #adb5bd;
 
-  --color-link: #0055bb;
-  --color-visited-link: #8440f1;
+  --color-link: #2196F3;
+  --color-visited-link: #2196F3;
 
   --body-background: white;
   --body-font-color: black;

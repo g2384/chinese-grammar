@@ -6,11 +6,11 @@ bookToc: false
 
 # 从来（always/never）
 
-从来 can mean always or never.
+It means always or never.
 
 ## Always
 
-|| Subject + 从来 + 都(是) + verb(verb phrase)
+{{<box "Subject + 从来 + 都(是) + verb(verb phrase)" >}}
 
 = always do something.
 
@@ -38,7 +38,7 @@ Is he always like this?
 
 ## Never
 
-|| Subject + 从(来) + 不 + verb(verb phrase)
+{{<box "Subject + 从(来) + 不 + verb(verb phrase)" >}}
 
 = never do something.
 
@@ -51,13 +51,14 @@ She never drinks.
 > 这个人很奇怪，他**从来不**笑。  
 = 这个人很奇怪，他**从不**笑。  
 This person is very strange. He never smiles.
+
 > 他**从来不**关心别人。  
 = 他**从不**关心别人。  
 He never cares about other people.
 
 ## Have Never Done
 
-|| Subject + 从(来) + (都)没(有) + Verb + 过
+{{<box "Subject + 从(来) + (都)没(有) + Verb + 过" >}}
 
 = to have never done something.
 

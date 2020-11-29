@@ -10,18 +10,18 @@ bookToc: false
 
 尽管 should be pronounced as "__jǐn__ guǎn", although many educated native speakers pronounce it exclusively as "__jìn__ guǎn".
 
-|| 尽管……，subject + （却）还是……
-|| 尽管……，但 subject + （却）还是……
-|| 尽管……，可是 subject + （却）还是……
-|| 尽管……，但是 subject + （却）还是……
-|| 尽管……，可是 subject + （却）……
-|| 尽管……，但是 subject + （却）……
+{{<box "尽管……，subject + （却）还是……"
+"尽管……，但 subject + （却）还是……"
+"尽管……，可是 subject + （却）还是……"
+"尽管……，但是 subject + （却）还是……"
+"尽管……，可是 subject + （却）……"
+"尽管……，但是 subject + （却）……" >}}
 
 = despite the fact that..., somebody still...
 
 但是、可是、还是 are used to emphasise the shift in meaning in the second clause. At least one must be kept in the second clause.
 
-却 shows disappointment, criticism, disgreement or unexpectedness. (See [却](/que))
+却 shows disappointment, criticism, disgreement or unexpectedness. (See [却](/adverb/que))
 
 > **尽管**很多人批评他，他**还是**坚持这么做。  
 = **尽管**很多人批评他，**可是**他**还是**坚持这么做。  
