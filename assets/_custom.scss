@@ -35,8 +35,22 @@ del {
   color: var(--mono-shade1);
 }
 
-:root {
-  --base-color: var(--mono-shade3);
+.book-menu label a {
+  color: var(--mono-shade2);
+}
+
+h2 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom-color: var(--mono-tint2);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+nav h2 {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  border-bottom-width: 0px;
 }
 
 .markdown-section blockquote em {
@@ -53,10 +67,6 @@ aside li span {
 
 nav {
   border-right: var(--gray-200) solid 1px;
-}
-
-.book-page {
-  padding-left: 3rem;
 }
 
 #book-search-results a:hover,

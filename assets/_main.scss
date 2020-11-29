@@ -97,7 +97,6 @@ ul.pagination {
 
 .book-menu {
   flex: 0 0 $menu-width;
-  font-size: $font-size-14;
 
   nav {
     width: $menu-width;
@@ -171,7 +170,7 @@ ul.pagination {
 
   input {
     width: 100%;
-    padding: $padding-8;
+    padding: $padding-16 $padding-8;
 
     border: 0;
     border-radius: $border-radius;
@@ -306,6 +305,10 @@ aside nav,
   will-change: transform, margin, opacity;
 }
 
+.book-page {
+  padding-left: 3rem;
+}
+
 @media screen and (max-width: $mobile-breakpoint) {
   #menu-control,
   #toc-control {
@@ -321,6 +324,10 @@ aside nav,
 
   .book-toc {
     display: none;
+  }
+
+  .book-page {
+    padding-left: 1rem;
   }
 
   .book-header {
@@ -379,5 +386,9 @@ aside nav,
   .book-menu nav,
   .book-toc nav {
     padding: $padding-16 * 2 $padding-16;
+  }
+
+  .book-page {
+    padding-left: 3rem;
   }
 }
