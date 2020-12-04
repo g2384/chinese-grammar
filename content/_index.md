@@ -10,7 +10,8 @@ weight: 1
 
 # Practical Chinese Usage
 
-[才、就](/adverb/cai_jiu)
+* [才、就](/adverb/cai_jiu)
+* [不是……，而是……](/conjunction/shi)
 
 ## HSK 3
 
@@ -29,3 +30,4 @@ weight: 1
 * [差不多](/adverb/approximation/chabuduo)
 * [尽管……](/conjunction/jinguan)
 * [却……](/adverb/que)
+* [而](/conjunction/er)
