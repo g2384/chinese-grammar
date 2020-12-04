@@ -28,5 +28,5 @@ This is harmful to him, not helpful to him.
 > 不好意思，我**是**不小心，**而不是**故意的。  
 I'm sorry. It was an accident. It wasn't on purpose.
 
-> 我不是不想帮你，而是没有能力帮你。  
+> 我**不是**不想帮你，**而是**没有能力帮你。  
 It's not that I don't want to help you, it's that I am incapable of helping you.

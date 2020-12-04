@@ -31,3 +31,4 @@ weight: 1
 * [尽管……](/conjunction/jinguan)
 * [却……](/adverb/que)
 * [而](/conjunction/er)
+* [挺](/adverb//very/#挺)
