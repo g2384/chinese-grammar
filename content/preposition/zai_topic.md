@@ -22,7 +22,7 @@ In regards to this problem, our opinions are the same.
 
 > 南方人和北方人**在**生活习惯**上**有很多差异。  
 = **在**生活习惯**上**，南方人和北方人有很多差异。  
-= 南方人和北方人有很多生活习惯**上**的差异。[(see ……上)](../shang#indicate-scope)  
+= 南方人和北方人有很多生活习惯**上**的差异。[(see ……上)](./shang#indicate-scope)  
 There are many differences between northern and southern people when it comes to living habits.
 
 ---

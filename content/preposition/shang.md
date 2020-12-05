@@ -47,4 +47,4 @@ For example, 文化上(regards to culture), 历史上(in history), 性格上(reg
 > 他性格上很不错。
 = He is very good in character. (in terms of personality, he's good.)
 
-See also: [在……上](../zai_topic#in-regards-to)
+See also: [在……上](./zai_topic#in-regards-to)
