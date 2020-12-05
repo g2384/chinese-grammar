@@ -1,4 +1,4 @@
-baseurl = ""
+baseurl = "https://chinese.kitimon.com/"
 title = "Practical Chinese Grammar"
 languageCode = "en-us"
 enableGitInfo = true
@@ -94,7 +94,6 @@ disablePathToLower = true
 
 [sitemap]
   filename = "sitemap.xml"
-  priority = 0.5
 
 [markup]
   defaultMarkdownHandler = "goldmark"
