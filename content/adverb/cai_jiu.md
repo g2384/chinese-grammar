@@ -22,7 +22,7 @@ Why did you come back so late? (How come you didn't come back until now?)
 > 我十二点**才**睡觉。  
 I went to bed as late as 12 o'clock.
 
-> 这只猫三岁才来我家。  
+> 这只猫三岁**才**来我家。  
 This cat didn't come to my home until it was three.
 
 {{<box "Subject + 这么/那么 + 晚 + 才+ Verb + Object" >}}

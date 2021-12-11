@@ -12,6 +12,7 @@ weight: 1
 
 * [才、就](/adverb/cai_jiu)
 * [不是……，而是……](/conjunction/shi)
+* [本来就](./benlaijiu)
 
 ## HSK 3
 
@@ -32,3 +33,4 @@ weight: 1
 * [却……](/adverb/que)
 * [而](/conjunction/er)
 * [挺](/adverb/very#挺)
+* [本来](/adverb/benlai)

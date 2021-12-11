@@ -76,6 +76,8 @@ $hint-colors: (
   --hint-color-info: #6bf;
   --hint-color-warning: #fd6;
   --hint-color-danger: #f66;
+
+  --markdown-strong: #009688;
 }
 
 @mixin theme-dark {
@@ -84,12 +86,12 @@ $hint-colors: (
 
   // Monochrome shades (darker) and tints (lighter)
   --mono-shade3: hsl(var(--mono-hue), var(--mono-saturation), 13%);
-  --mono-shade2: hsl(var(--mono-hue), var(--mono-saturation), 15%);
+  --mono-shade2: hsl(217.6, 100%, 75.9%);
   --mono-shade1: hsl(var(--mono-hue), var(--mono-saturation), 17%);
   --mono-base: hsl(var(--mono-hue), var(--mono-saturation), 19%);
   --mono-tint1: hsl(var(--mono-hue), var(--mono-saturation), 25%);
   --mono-tint2: hsl(var(--mono-hue), var(--mono-saturation), 35%);
-  --mono-tint3: hsl(var(--mono-hue), var(--mono-saturation), 43%);
+  --mono-tint3: #222;
 
   --gray-100: rgba(255, 255, 255, 0.1);
   --gray-200: rgba(255, 255, 255, 0.2);
@@ -106,4 +108,6 @@ $hint-colors: (
   --hint-color-info: #6bf;
   --hint-color-warning: #fd6;
   --hint-color-danger: #f66;
+
+  --markdown-strong: #41c3b6;
 }
