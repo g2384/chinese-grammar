@@ -34,3 +34,4 @@ weight: 1
 * [而](/conjunction/er)
 * [挺](/adverb/very#挺)
 * [本来](/adverb/benlai)
+* [搞](/verb/do_make_get#gao)

@@ -10,8 +10,7 @@ bookToc: false
 
 {{<box "Subject + Time + 才+ Verb + Object" >}}
 
-= "as late as", "not until". It expresses anxiety, impatience, or
-anger.
+= "as late as", "not until". It expresses anxiety, impatience, or anger.
 
 > 我等了两个小时**才**买到票。  
 I had waited two hours before I bought the ticket.
